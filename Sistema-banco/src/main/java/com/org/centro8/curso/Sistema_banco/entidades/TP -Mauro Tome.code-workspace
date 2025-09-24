@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../../.."
+		},
+		{
+			"path": "../../../../../../../../../../../tn-poo-clase-13"
+		},
+		{
+			"path": "../../../../../../../../../../../SistemaBancario-main"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
