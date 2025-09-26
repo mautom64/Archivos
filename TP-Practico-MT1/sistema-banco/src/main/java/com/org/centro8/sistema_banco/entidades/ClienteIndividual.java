@@ -19,14 +19,11 @@ public class ClienteIndividual extends Cliente {
     private String dni;
 
     // Constructores
-    public ClienteIndividual(String NumCliente, String nombre, String apellido, String dni) {
-        super(NumCliente);
+    public ClienteIndividual(String numCliente, String nombre, String apellido, String dni) {
+        super(numCliente);
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
-    }
-public ClienteIndividual(int i, String nombre2, String apellido2, String dni2) {
-        //TODO Auto-generated constructor stub
     }
     // Metodo
     @Override

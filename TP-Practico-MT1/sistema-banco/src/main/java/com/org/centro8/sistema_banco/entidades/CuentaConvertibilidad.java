@@ -1,17 +1,23 @@
 package com.org.centro8.sistema_banco.entidades;
 
+import lombok.Data;
+import lombok.ToString;
 
 @Data
 @ToString(callSuper=true)
 
 
 
-public class Cuentaconvertibilidad extends CuentaCorriente {
+public class CuentaConvertibilidad extends CuentaCorriente {
     private double saldoDolares;
 
-    public cuentaconvertibilidad(String nroCuenta, double saldoInicial) {
-        super(nroCuenta, saldo);
-        this.saldoDolares = 0.0;
+    
+    
+
+    public CuentaConvertibilidad(String nroCuenta, double saldo, double montoDescubiertoAutorizado,
+            double saldoDolares) {
+        super(nroCuenta, saldo, montoDescubiertoAutorizado);
+        this.saldoDolares = saldoDolares;
     }
 
     public void depositarDolar(double monto) {
