@@ -6,17 +6,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Cheque {
-   private int  nroCheque;
-   private String bancoEmisor;
-   private String fechaCobro;
+    private int nroCheque;
+    private String bancoEmisor;
+    private String fechaCobro;
     private double monto;
-/**
- * Cheque en $
- * @param nroCheque
- * @param bancoEmisor
- * @param fechaCobro
- * @param monto
- */
+
     public Cheque(String bancoEmisor, String fechaCobro, double monto, int nroCheque) {
         this.bancoEmisor = bancoEmisor;
         this.fechaCobro = fechaCobro;
@@ -24,6 +18,4 @@ public class Cheque {
         this.nroCheque = nroCheque;
     }
 
-    
- }
-
+}
